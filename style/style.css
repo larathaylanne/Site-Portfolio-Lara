@@ -47,6 +47,7 @@
     margin: 0;
   }
   
+  
   .profile-image {
     display: block;
     margin: 20px auto;
@@ -74,7 +75,7 @@
     position: relative;
     overflow: hidden;
     margin: 0 auto;
-.ç    border-radius: 20px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 20px;
     max-width: 1200px;
