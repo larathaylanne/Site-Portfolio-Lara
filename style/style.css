@@ -1,5 +1,5 @@
 body, html {
-    background: linear-gradient(to bottom, #4a337f, #27396d);
+    background-color: #14161A;
     padding: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
@@ -32,21 +32,42 @@ main {
     position: relative;
 }
 
+h1 {
+  color: #913EAF;
+}
+
   h2 {
+    color: #913EAF;
     border-radius: 5px;
     margin: 0;
+    font-size: 36px;
+  }
+
+  h3 {
+    max-width: 1300px;
+    margin: 0 auto;
+    line-height: 1.7;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
   }
 
 .profile-image {
     display: block;
-    margin: 20px auto;
+    margin: 5px auto;
+    border: 2px solid black;
     border-radius: 2%;
-    border: solid 3px var(--preto);
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+  }
+
+  .carrosel-container img {
+    max-width: 600px;
+    height: 300px;
+    width: 300px;
   }
 
   .footer-div {
